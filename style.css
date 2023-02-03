@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background: linear-gradient(rgba(0, 0, 0, .93), rgba(0, 0, 0, .8)), url(assets/images/bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-image: url(assets/images/bg.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    width: 100%;
+
+}
+
+.object{
+    padding-left: 37px;
+}
+
+.object h1{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 57px;
+    color: #ffffff;
+}
+
+.object p{
+    font-family: Roboto, sans-serif;
+    color: #E1E1D9;
+    font-size: 16px;
+}
+.alter-button{
+    margin-top: 35px;
+    font-family: Roboto, sans-serif;
+    padding: 8px 11px;
+    border-radius: 5px;
+    color: #E1E1D9;
+    background-color: #1cb495;
+    border-color: #1cb495;
+}
+.form-div{
+    display: flex;
+}
+@media screen and (max-width: 480px) {
+    .object p{
+        font-size: 13.5px;
+    }
+    .object h1{
+        font-size: 10vw;
+    }
+    .form-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .alter-button{
+        border: none;
+        margin-top: 20px;
+        width: 335px;
+        height: 40px;
+    }
+    .form{
+        background:transparent; 
+        width: 335px;
+        height: 40px;
+       
+    }
+    .container{
+        background: linear-gradient(rgba(0, 0, 0, .47), rgba(0, 0, 0, .44)), url(assets/images/bg.jpg);
+    }
+}
+
+.object a{
+    border-bottom: 1px dotted #eee;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.form{
+    margin-top: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background: transparent;
+    /* background-color: #000; */
+    padding: 8px 0px;
+    font-family: Roboto, sans-serif;
+    border-color: #E1E1D9;
+}
+.button{
+    font-family: Roboto, sans-serif;
+    padding: 8px 11px;
+    border-radius: 5px;
+    color: #E1E1D9;
+    background-color: #1cb495;
+    border-color: #1cb495;
+    /* margin-left: 7px; */
+}
+
+footer{
+    padding-left: 37px;
+    position: absolute;
+    bottom: 40px;
+    font-size: 13px;
+    color: #E1E1D9;
+}
+
